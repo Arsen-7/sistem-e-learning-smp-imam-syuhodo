@@ -1,0 +1,1 @@
+<x-app-layout><x-slot name="header"><h1 class="text-2xl font-extrabold text-slate-900">Edit Materi</h1></x-slot><form method="POST" action="{{ route('teacher.materials.update', $material) }}" enctype="multipart/form-data" class="rounded-3xl bg-white/90 p-6 shadow-sm">@csrf @method('PUT') @include('teacher.materials._form')</form></x-app-layout>

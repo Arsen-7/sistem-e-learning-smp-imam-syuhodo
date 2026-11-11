@@ -1,0 +1,1 @@
+<x-app-layout><x-slot name="header"><h1 class="text-2xl font-extrabold text-slate-900">Tambah Bobot Nilai</h1></x-slot><form method="POST" action="{{ route('admin.grade-weights.store') }}" class="rounded-3xl bg-white/90 p-6 shadow-sm">@csrf @include('admin.grade-weights._form')</form></x-app-layout>

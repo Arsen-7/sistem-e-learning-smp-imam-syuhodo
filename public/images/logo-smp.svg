@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Logo SMP Muhammadiyah Imam Syuhodo</title>
+  <desc id="desc">Logo sekolah berbentuk perisai biru bertuliskan SMP Muhammadiyah Imam Syuhodo.</desc>
+  <defs>
+    <path id="muhammadiyah-arc" d="M205 320 Q500 230 795 320"/>
+    <path id="imam-arc" d="M275 760 Q500 835 725 760"/>
+    <filter id="soft-shadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#05263d" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#soft-shadow)">
+    <polygon points="500 28 820 76 802 176 890 215 818 840 500 970 182 840 110 215 198 176 180 76" fill="#086da9"/>
+    <polygon points="500 53 790 96 774 196 858 234 792 820 500 940 208 820 142 234 226 196 210 96" fill="none" stroke="#f5d21d" stroke-width="17" stroke-linejoin="round"/>
+    <polygon points="500 78 757 115 742 217 826 253 767 797 500 910 233 797 174 253 258 217 243 115" fill="none" stroke="#1b1d20" stroke-width="18" stroke-linejoin="round"/>
+  </g>
+
+  <text x="500" y="168" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="900" letter-spacing="26" text-anchor="middle">SMP</text>
+
+  <text fill="#ffd92a" stroke="#1c1c1c" stroke-width="5" paint-order="stroke fill" font-family="Arial Black, Impact, sans-serif" font-size="86" font-weight="900" letter-spacing="2">
+    <textPath href="#muhammadiyah-arc" startOffset="50%" text-anchor="middle">MUHAMMADIYAH</textPath>
+  </text>
+
+  <g stroke="#ddff32" stroke-width="12" stroke-linecap="round">
+    <line x1="500" y1="410" x2="500" y2="315"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(12 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(24 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(36 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(48 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(60 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(72 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(84 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(96 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(108 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(120 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(132 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(144 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(156 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(168 500 455)"/>
+    <line x1="500" y1="410" x2="500" y2="315" transform="rotate(180 500 455)"/>
+  </g>
+
+  <g>
+    <circle cx="500" cy="455" r="72" fill="#fff"/>
+    <circle cx="500" cy="455" r="54" fill="#ffe22f" stroke="#111" stroke-width="9"/>
+    <text x="500" y="480" fill="#111" font-family="'Times New Roman', serif" font-size="56" font-weight="700" direction="rtl" unicode-bidi="bidi-override" text-anchor="middle">&#x0645;&#x062D;&#x0645;&#x062F;</text>
+  </g>
+
+  <g stroke="#171717" stroke-width="8" stroke-linejoin="round">
+    <path d="M388 510 Q448 507 500 555 Q552 507 612 510 L635 625 Q565 615 500 666 Q435 615 365 625 Z" fill="#fff"/>
+    <path d="M500 555 L500 666" fill="none"/>
+    <path d="M408 538 Q454 538 486 568 M404 568 Q454 569 487 596 M400 596 Q449 598 486 624" fill="none" stroke-width="6" stroke-linecap="round"/>
+    <path d="M592 538 Q546 538 514 568 M596 568 Q546 569 513 596 M600 596 Q551 598 514 624" fill="none" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <text x="500" y="735" fill="#fff42b" stroke="#1c1c1c" stroke-width="7" paint-order="stroke fill" font-family="'Times New Roman', serif" font-size="80" font-weight="900" direction="rtl" unicode-bidi="bidi-override" text-anchor="middle">&#x0627;&#x0645;&#x0627;&#x0645; &#x0634;&#x0647;&#x062F;&#x0627;&#x0621;</text>
+
+  <text fill="#fff" font-family="Arial Black, Impact, sans-serif" font-size="58" font-weight="900" letter-spacing="8">
+    <textPath href="#imam-arc" startOffset="50%" text-anchor="middle">IMAM SYUHODO</textPath>
+  </text>
+</svg>

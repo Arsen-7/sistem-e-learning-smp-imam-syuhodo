@@ -1,0 +1,6 @@
+<form method="GET" class="mb-6 grid gap-3 rounded-3xl bg-white/90 p-4 shadow-sm md:grid-cols-4">
+    <select name="tahun_ajaran_id" onchange="this.form.submit()" class="rounded-2xl border-slate-200"><option value="">Tahun Pelajaran</option>@foreach($years as $year)<option value="{{ $year->id }}" @selected($selectedYear?->id === $year->id)>{{ $year->nama }}</option>@endforeach</select>
+    <select name="class_id" onchange="this.form.submit()" class="rounded-2xl border-slate-200"><option value="">Kelas</option>@foreach($classes as $class)<option value="{{ $class->id }}" @selected($selectedClass?->id === $class->id)>{{ $class->nama_kelas }}</option>@endforeach</select>
+    <select name="semester_id" onchange="this.form.submit()" class="rounded-2xl border-slate-200"><option value="">Semua Semester</option>@foreach($semesters as $semester)<option value="{{ $semester->id }}" @selected($selectedSemester?->id === $semester->id)>{{ $semester->nama }}</option>@endforeach</select>
+    <select name="subject_id" onchange="this.form.submit()" class="rounded-2xl border-slate-200"><option value="">Semua Mata Pelajaran</option>@foreach($subjects as $subject)<option value="{{ $subject->id }}" @selected($subjectId === $subject->id)>{{ $subject->nama_mapel }}</option>@endforeach</select>
+</form>
